@@ -7,7 +7,7 @@ font-family: 'IBM Plex Mono', monospace;
 font-family: 'IBM Plex Sans', sans-serif;
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;1,200;1,500&family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;1,200;1,500&family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
 
 :root {
   --primary-color: #c5daf0;
@@ -18,22 +18,21 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* BASE STYLES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
   background-color: var(--background-color);
 }
 
 h1 {
-  font-family: "Fahkwang", sans-serif;
+  font-family: 'Fahkwang', sans-serif;
   font-weight: 400;
   text-transform: capitalize;
-}
-
-h2,
-.skill-list {
-  font-family: "IBM Plex Sans", monospace;
-  font-weight: 500;
 }
 
 img {
@@ -45,8 +44,32 @@ img {
   align-items: center;
 }
 
-/* SKILLS SECTION STYLES */
+/* HERO TEXT STYLES */
+h2,
+.skill-list {
+  font-family: 'IBM Plex Sans', monospace;
+  font-weight: 500;
+}
 
+.skill-list li {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  list-style: none;
+}
+
+/* NAV STYLES */
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+}
+
+/* SKILLS SECTION STYLES */
 .skills {
   display: flex;
   flex-direction: column;
@@ -55,7 +78,8 @@ img {
   height: 40vh;
   font-size: 2rem;
   font-weight: 400;
-  line-height: 3.5rem;
+  line-height: 3rem;
+  font-style: italic;
 }
 
 .skills li {
