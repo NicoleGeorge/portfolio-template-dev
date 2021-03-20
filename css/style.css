@@ -167,3 +167,19 @@ header {
 .content-box-left {
   margin-right: 50px;
 }
+
+/* FOOTER SECTION STYLES */
+footer {
+  text-align: center;
+  margin: 80px;
+}
+
+footer h2 {
+  font-size: 2.2rem;
+  text-transform: lowercase;
+}
+
+footer p {
+  margin-top: 100px;
+  text-transform: capitalize;
+}
