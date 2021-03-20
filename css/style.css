@@ -71,6 +71,11 @@ img {
   padding: 10px 20px;
   align-items: left;
   margin: 20px 0;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn:hover {
+background: #fdcbc9;
 }
 
 .btn:focus {
