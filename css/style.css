@@ -168,6 +168,10 @@ header {
   margin-right: 50px;
 }
 
+.align-left {
+  text-align: left;
+}
+
 /* FOOTER SECTION STYLES */
 footer {
   text-align: center;
