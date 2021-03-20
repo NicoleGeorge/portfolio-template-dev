@@ -38,6 +38,18 @@ h1 {
   text-transform: capitalize;
 }
 
+h2 {
+  font-family: 'Fahkwang', sans-serif;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -57,7 +69,7 @@ img {
 figcaption {
   font-size: 0.8rem;
   text-align: right;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 /* NAV STYLES */
@@ -97,7 +109,6 @@ header {
 }
 
 /* HERO TEXT STYLES */
-h2,
 .skill-list {
   font-family: 'IBM Plex Sans', monospace;
   font-weight: 500;
@@ -135,4 +146,24 @@ h2,
 .skills li {
   list-style: none;
   text-align: center;
+}
+
+/* PROJECT SECTION STYLES */
+.project {
+  background-color: var(--hightlight-color);
+  margin: 45px 0;
+  padding: 25px;
+}
+.project-img {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content-box-right {
+  margin-left: 50px;
+}
+
+.content-box-left {
+  margin-right: 50px;
 }
